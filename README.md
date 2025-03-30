@@ -10,7 +10,7 @@ Open Settings > Apps > Programs and Features > Turn Windows features on or off d
 
 After you have enabled WSL, you can install linux distribution via Microsoft Store. We will use the latest version of Debian linux for the hands-on lab. Open Microsoft Store app and search *Debian* (Debian 12, Bookworm), and install.
 
-To verify your install, open windows terminal or command terminal and run `wsl -l -v` command to list WSL distributions.
+To verify your install, open windows terminal or command terminal and run `wsl -l -v` command to list WSL distributions. For more details about WSL command, please refer to [Basic commands for WSL](https://learn.microsoft.com/en-us/windows/wsl/basic-commands).
 
 ## JupyterLab
 ### Install Python
