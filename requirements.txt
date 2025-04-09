@@ -1,5 +1,5 @@
 jupyterlab==4.3.4
-jupyterlab_git==0.50.2
+jupyterlab_git==0.51.1
 matplotlib==3.10.0
 nltk==3.9.1
 notebook_shim==0.2.4
