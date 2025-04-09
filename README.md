@@ -1,4 +1,4 @@
-# Data on WSL (Windows Subsystem for Linux)
+# Data Lab
 > [!TIP]
 > This is a project shows how to build an AI/ML system in a WSL environment. Of course, the same can be applied in a general Linux environment.
 
