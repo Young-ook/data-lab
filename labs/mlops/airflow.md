@@ -5,13 +5,13 @@
 You might have installed Airflow when you tried to install the Jupyter using `requirements.txt`, but if not, follow the *(Optional) Set Airlfow home directory* and *Install Airflow using the constraints file, which is determined based on the URL we pass* steps to install Airflow from PyPI(Python Package Index).
 
 > [!WARNING]
-> **DON'T FORGET** to make sure that you've activated the python virtual environment with `source .venv/bin/activate` in the *data-lab-on-wsl* local directory.
+> **DON'T FORGET** to make sure that you've activated the python virtual environment with `source .venv/bin/activate` in the *data-lab* local directory.
 
 #### (Optional) Set Airlfow home directory
 The first time you run Airflow, it will create a file called `airflow.cfg` in your `AIRFLOW_HOME` directory (`$HOME/airflow` by default). The `AIRFLOW_HOME` environment variable is used to inform Airflow of the desired location. This step of setting the environment variable should be done before installing Airflow so that the installation process knows where to store the necessary files.
 
 You can set the home directory to a similar path commonly used by other tools: `export AIRFLOW_HOME=$HOME/.airflow`
-. Or, if you want one easy way to manage things, you can put everything in one place. Go to the *data-lab-on-wsl/examples/jupyter/ml-ops* and configure the environment variable: `export AIRFLOW_HOME=$PWD/airflow`.
+. Or, if you want one easy way to manage things, you can put everything in one place. Go to the *data-lab/examples/jupyter/ml-ops* and configure the environment variable: `export AIRFLOW_HOME=$PWD/airflow`.
 
 In this example, we will use the default home directory, skip for now.
 

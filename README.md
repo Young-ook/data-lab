@@ -34,15 +34,15 @@ python -m venv .venv
 source ./.venv/bin/activate
 ```
 
-After you are in your virtual environment, install jupyter package and dependencies using PIP(Package Installer for Python). The packages described in the *requirements.txt* file are tested on python 3.11.2, therefore you may see error if you are running on different python version.
+After you are in your virtual environment, install jupyter package and dependencies using PIP(Package Installer for Python). The packages described in the *requirements.txt* file are tested on python 3.11.2, therefore you may see error if you are running on different python version (.venv).
 ```
-(.venv) pip install -r requirements.txt
+ pip install -r requirements.txt
 ```
 
 ### Launch Jupyter Lab
-Launch a jupyter lab and open a web browser to access:
+Launch a jupyter lab and open a web browser to access (if you want to change the port number, add `--port 8080` parameter):
 ```
-(.venv) jupyter-lab --no-brower (--port 8080)
+jupyter-lab --no-browser
 ```
 
 # Labs
