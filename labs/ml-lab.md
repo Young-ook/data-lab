@@ -13,7 +13,7 @@ Open the notebooks in the *mlbasic* directory and follow the instructions.
 
 ## MLOps
 ### MLflow
-Open the `mlflow.ipynb` notebook in the *mlops* directory and follow the instructions. And if you are looking for the latest examples and advanced guide for MLflow, you can follow the instructions from [the official MLflow repository](https://github.com/mlflow/mlflow). Clone the mlflow into the *data-lab-on-wsl/labs/extra* directory and run examples by following the intructions of each jupyter notebooks under the example directory. You should make a *extra* directory where to clone the mlflow examples if you don't have it on your workspace.
+Open the `mlflow.ipynb` notebook in the *mlops* directory and follow the instructions. And if you are looking for the latest examples and advanced guide for MLflow, you can follow the instructions from [the official MLflow repository](https://github.com/mlflow/mlflow). Clone the mlflow into the *data-lab/labs/extra* directory and run examples by following the intructions of each jupyter notebooks under the example directory. You should make a *extra* directory where to clone the mlflow examples if you don't have it on your workspace.
 ```bash
 git clone https://github.com/mlflow/mlflow.git
 ```
@@ -40,7 +40,7 @@ Open the `simple-llm-student-guide.ipynb` notebook in *llm* directory and follow
 
 ## Other Examples
 ### PyTorch for Deep Learning Bootcamp
-Clone the repository into the *data-lab-on-wsl/labs/extra* directory. If you have the *extra* directory you can create before you clone the repository using `mkdir -p extra`. To run hands-on labs, open each notebooks and follow the tutorials for pytorch deep learning course. For more details, please check out the [PyTorch for Deep Learning Bootcamp](https://github.com/mrdbourke/pytorch-deep-learning).
+Clone the repository into the *data-lab/labs/extra* directory. If you have the *extra* directory you can create before you clone the repository using `mkdir -p extra`. To run hands-on labs, open each notebooks and follow the tutorials for pytorch deep learning course. For more details, please check out the [PyTorch for Deep Learning Bootcamp](https://github.com/mrdbourke/pytorch-deep-learning).
 
 **NOTE** Make sure to clone the repository via SSH, not HTTP. Due to the large file size, you might see a gRPC error when you try to download the project over HTTP.
 ```
@@ -55,7 +55,7 @@ pip3 install torch torchvision torchaudio
 ![wsl-jupyter-dl-pytorch-bootcamp](../images/wsl-jupyter-dl-pytorch-bootcamp.png)
 
 ### Randy Olson's Data Analysis and Machine Learning projects
-This is a good project for learning data analysis and machine learning with hand-on. To run examples, clone the repository under the *data-lab-on-wsl/labs/extra* directory. Please create *extra* directory if you don't have. Open and follow the instructions of each notebooks. For more details, please check out the [Data Analysis and Machine Learning Projects](https://github.com/rhiever/Data-Analysis-and-Machine-Learning-Projects).
+This is a good project for learning data analysis and machine learning with hand-on. To run examples, clone the repository under the *data-lab/labs/extra* directory. Please create *extra* directory if you don't have. Open and follow the instructions of each notebooks. For more details, please check out the [Data Analysis and Machine Learning Projects](https://github.com/rhiever/Data-Analysis-and-Machine-Learning-Projects).
 
 ```
 git clone https://github.com/rhiever/Data-Analysis-and-Machine-Learning-Projects.git
