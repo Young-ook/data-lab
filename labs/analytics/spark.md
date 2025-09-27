@@ -38,6 +38,8 @@ Or you can download using curl if you don't have wget.
 ```
 curl -O https://dlcdn.apache.org/spark/spark-3.5.4/spark-3.5.4-bin-hadoop3.tgz
 ```
+> [!NOTE]
+> If you failed to download the 3.5.4 due to it is outdate, you can directly search and download the latest release of spark on https://dlcdn.apache.org/spark/
 
 And move the extracted directory where you want to install. In this example, we will install spark under the *$HOME/.local/lib/*. If you finished to move the file, you have to set system environment variable to the current spark runtime:
 ```
@@ -58,7 +60,13 @@ For compatibility, you can also define environment variable settings in your *$H
 [[ -e ~/.profile ]] && emulate sh -c 'source ~/.profile'
 ```
 
-## Spark Application Examples
+## PySpark
+PySpark enables developers to write Spark applications through Python language. With PySpark and Jupyter Notebook, developers can test and build distributed analytics job interactively. To learn how to use PySpark with Jupyter Notebook, follow the instructions.
+- `dataframe.ipynb`
+- `cluster.ipynb`
+
+## Java Application
+In the previous steps, you've learn how to run interactive analytics application on the distribtued spark cluster. In this section, you can learn how to build and deploy your distributed analytics java application on your spark cluster. Maybe, this way would be better thatn the interactive way for automatic batch job or service.
 
 ### Pi on Local Machine
 Simply, you can run your spark Pi caculation application on your local machine:
