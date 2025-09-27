@@ -76,7 +76,7 @@ sh job-submit-pi.sh -l
 
 ![wsl-spark-local-pi-app](../../images/wsl-spark-local-pi-app.png)
 
-## Pi on Standalone Cluster
+### Pi on Standalone Cluster
 You can also run your spark Pi caculation application on your local standalone cluster. To run an application on standalone cluster, you need to make sure that your standalone spark cluster is running. Run your local standalone spark cluster:
 ```bash
 # run a spark standalone cluster
@@ -98,6 +98,3 @@ sh job-submit-pi.sh -s
 # terminate the running spark standalone cluster
 sh sparkctl.sh -t
 ```
-
-# Next Step
-- [PySpark](../analytics-lab.md#pyspark)
