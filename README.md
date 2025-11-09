@@ -46,8 +46,8 @@ jupyter-lab --no-browser
 ```
 
 # Labs
-- [Analytics Lab](labs/analytics-lab.md)
-- [ML (Machine Learning) Lab](labs/ml-lab.md)
+- [Analytics](labs/analytics.md)
+- [ML (Machine Learning)](labs/machinelearning.md)
 
 # Clean up
 You can stop and terminate the running Juypter and other processes by simply pressing `ctrl+c` and following the instructions that appear. Then, type `deactivate` to exit the virtual environment:
