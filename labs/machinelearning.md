@@ -38,6 +38,9 @@ ZenML is an open-source MLOps framework that seamlessly integrates existing infr
 ### Simple LLM
 Open the `simple-llm-student-guide.ipynb` notebook in *llm* directory and follow the instructions.
 
+### Ollama
+Ollama is an open-source tool that allows users to run large language models (LLMs) on local computer. Open the `ollama.md` file in *llm* and follow the instructions.
+
 ## Other Examples
 ### PyTorch for Deep Learning Bootcamp
 Clone the repository into the *data-lab/labs/extra* directory. If you have the *extra* directory you can create before you clone the repository using `mkdir -p extra`. To run hands-on labs, open each notebooks and follow the tutorials for pytorch deep learning course. For more details, please check out the [PyTorch for Deep Learning Bootcamp](https://github.com/mrdbourke/pytorch-deep-learning).
