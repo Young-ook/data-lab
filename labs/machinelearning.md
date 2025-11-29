@@ -12,16 +12,17 @@ Open the notebooks in the *mlbasic* directory and follow the instructions.
 - `feature-engineering.ipynb`
 
 ## MLOps
+
+### Airflow
+Open the [airflow.md](../airflow/airflow.md) file in the *airflow* directory and follow the instructions.
+
 ### MLflow
-Open the `mlflow.ipynb` notebook in the *mlops* directory and follow the instructions. And if you are looking for the latest examples and advanced guide for MLflow, you can follow the instructions from [the official MLflow repository](https://github.com/mlflow/mlflow). Clone the mlflow into the *data-lab/labs/extra* directory and run examples by following the intructions of each jupyter notebooks under the example directory. You should make a *extra* directory where to clone the mlflow examples if you don't have it on your workspace.
+Open the [mlflow.ipynb](mlflow/mlflow.ipynb) jupyter notebook and follow the instructions. If you are looking for the latest examples and advanced guide for MLflow, you can follow the instructions from [the official MLflow repository](https://github.com/mlflow/mlflow). Clone the mlflow into the *data-lab/labs/extra* directory and run examples by following the intructions of each jupyter notebooks under the example directory. You should make a *extra* directory where to clone the mlflow examples if you don't have it on your workspace.
 ```bash
 git clone https://github.com/mlflow/mlflow.git
 ```
 
 ![mlflow-web](../images/wsl-jupyter-mlflow-web.png)
-
-### Airflow
-Open the [airflow.md](../airflow/airflow.md) file in the *airflow* directory and follow the instructions.
 
 ### Kedro
 Kedro is an open-source Python framework to create reproducible, maintainable, and modular data science code. It uses software engineering best practices to help you build production-ready data science pipelines. You can build your MLOps pipeline by following the official [Kedro Tutorial](https://docs.kedro.org/en/stable/tutorial/spaceflights_tutorial.html).
