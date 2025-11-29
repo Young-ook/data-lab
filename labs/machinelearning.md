@@ -21,7 +21,7 @@ git clone https://github.com/mlflow/mlflow.git
 ![mlflow-web](../images/wsl-jupyter-mlflow-web.png)
 
 ### Airflow
-Open the [airflow.md](mlops/airflow.md) file in the *mlops* directory and follow the instructions.
+Open the [airflow.md](../airflow/airflow.md) file in the *airflow* directory and follow the instructions.
 
 ### Kedro
 Kedro is an open-source Python framework to create reproducible, maintainable, and modular data science code. It uses software engineering best practices to help you build production-ready data science pipelines. You can build your MLOps pipeline by following the official [Kedro Tutorial](https://docs.kedro.org/en/stable/tutorial/spaceflights_tutorial.html).
