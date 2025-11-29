@@ -1,15 +1,13 @@
 # ML (Machine Learning) Lab
 
 ## Table of Contents
-- [ML Basic](#ml-basic)
+- [Jupyter](#jupyter)
 - [MLOps](#mlops)
 - [LLM (Large Language Model)](#llm)
 - [Other Examples](#other-examples)
 
-## ML Basic
-Open the notebooks in the *mlbasic* directory and follow the instructions.
-- `dataset.ipynb`
-- `feature-engineering.ipynb`
+## Jupyter
+Jupyter is the web-based notebook application for interactive computing, computational documents sharing. It offers a simple, streamlined, document-centric experience. Open the [jupyter.md](jupyter/jupyter.md) in the *jupyter* directory and follow the instructions.
 
 ## MLOps
 ### MLflow
