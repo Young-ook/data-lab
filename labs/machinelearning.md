@@ -12,7 +12,7 @@ Jupyter is the web-based notebook application for interactive computing, computa
 ## MLOps
 
 ### Airflow
-Open the [airflow.md](../airflow/airflow.md) file in the *airflow* directory and follow the instructions.
+Open the [airflow.md](airflow/airflow.md) file in the *airflow* directory and follow the instructions.
 
 ### MLflow
 Open the [mlflow.ipynb](mlflow/mlflow.ipynb) jupyter notebook and follow the instructions. If you are looking for the latest examples and advanced guide for MLflow, you can follow the instructions from [the official MLflow repository](https://github.com/mlflow/mlflow). Clone the mlflow into the *data-lab/labs/extra* directory and run examples by following the intructions of each jupyter notebooks under the example directory. You should make a *extra* directory where to clone the mlflow examples if you don't have it on your workspace.
