@@ -4,4 +4,4 @@
 - [Apache Spark](#apache-spark)
 
 ## Apache Spark
-Open the [spark.md](analytics/spark.md) file in the *analytics* directory and follow the instructions.
+Open the [spark.md](spark/spark.md) file in the *spark* directory and follow the instructions.
