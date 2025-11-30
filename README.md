@@ -56,5 +56,4 @@ You can stop and terminate the running Juypter and other processes by simply pre
 ```
 
 # Additional Resources
-- [Terraform: Amazon SageMaker](https://github.com/Young-ook/terraform-aws-sagemaker/tree/main/examples/blueprint)
 - [Terraform: Data on Amazon EKS](https://github.com/Young-ook/terraform-aws-eks/tree/main/examples/data-ai)
