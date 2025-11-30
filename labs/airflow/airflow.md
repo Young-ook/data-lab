@@ -56,7 +56,7 @@ Alos, you can override default configurations using environment variables, see [
 Restart Airflow standalone: `airflow standalone`. Visit `localhost:8080` in your browser and log in with the admin account details (user name and automatically generated password) shown in the terminal.
 
 Once logged in, go to the *Cluster Activity*, and verify your Airflow standalone cluster is healty.
-![wsl-airflow-cluster-status](../../images/wsl-airflow-cluster-status.png)
+![airflow-cluster](../../images/airflow-cluster.png)
 
 > [!NOTE]
 > You may see an error message on the *Cluster Activity*. This could be due to insufficient available memory. Please make sure your system has enough free memory (recommended minimum memory is 4GB) and restart your Airflow standalone cluster.
@@ -73,14 +73,14 @@ cp -r labs/mlops/dags $HOME/airflow/
 ```
 
 You will see the `greetings` and `ml_train` in the *DAGs* when you back to the Airflow. With these DAGs, you can see how Airflow works and how to integrate Airflow and MLflow for ML workflow management. Go to the *DAGs* and run what you want.
-![wsl-airflow-dag-list](../../images/wsl-airflow-dag-list.png)
-![wsl-airflow-mlflow-dag](../../images/wsl-airflow-mlflow-dag.png)
+![airflow-dag](../../images/airflow-dag.png)
+![mlflow-dag](../../images/mlflow-dag.png)
 
 > [!IMPORTANT]
 > Please make sure that your MLflow Tracking Server is running before you run the MLOps with Airflow and MLflow DAG. For more information how to run a MLflow Tracking Server, follow the [Install MLflow](https://mlflow.org/docs/latest/ml/tracking/quickstart/) instructions.
 
 If the ML pipeline was successfully finished, you can see the a new experiment has been recorded in MLflow Tracking Server. Access `localhost:5000` to see the latest experiment *airflow* registred as the source.
-![wsl-airflow-mlflow-exp](../../images/wsl-airflow-mlflow-exp.png)
+![mlflow-exp](../../images/mlflow-exp.png)
 
 # Additional Resources
 
