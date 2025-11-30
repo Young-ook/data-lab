@@ -3,7 +3,7 @@
 ## Spark Architecture
 Apache Spark architecture consists of a driver program that coordinates tasks and interacts with a cluster manager to allocate resources. The driver communicates with worker nodes, where tasks are executed within an executor’s JVM. SparkContext manages the execution environment, while the DataFrame API enables high-level abstraction for data manipulation. SparkSession provides a unified entry point for Spark functionality. Underneath, the cluster manager oversees resource allocation and task scheduling across nodes, facilitating parallel computation for processing large-scale data efficiently.
 
-![spark-cluster-overview](../../images/wsl-spark-cluster-overview.png)
+![spark-overview](../../images/spark-overview.png)
 
 Spark applications run as independent sets of processes on a cluster, coordinated by the SparkContext object in your main program (called the driver program). Specifically, to run on a cluster, the SparkContext can connect to several types of cluster managers (either Spark’s own standalone cluster manager, Mesos, YARN or Kubernetes), which allocate resources across applications. Once connected, Spark acquires executors on nodes in the cluster, which are processes that run computations and store data for your application. Next, it sends your application code (defined by JAR or Python files passed to SparkContext) to the executors. Finally, SparkContext sends tasks to the executors to run.
 
@@ -74,7 +74,7 @@ Simply, you can run your spark Pi caculation application on your local machine:
 sh job-submit-pi.sh -l
 ```
 
-![wsl-spark-local-pi-app](../../images/wsl-spark-local-pi-app.png)
+![spark-local](../../images/spark-local.png)
 
 ### Pi on Standalone Cluster
 You can also run your spark Pi caculation application on your local standalone cluster. To run an application on standalone cluster, you need to make sure that your standalone spark cluster is running. Run your local standalone spark cluster:
@@ -88,10 +88,9 @@ And, submit spark Pi application to the your local cluster:
 sh job-submit-pi.sh -s
 ```
 
-![wsl-spark-standalone-master-ui](../../images/wsl-spark-standalone-master-ui.png)
-![wsl-spark-standalone-worker-details](../../images/wsl-spark-standalone-worker-details.png)
-![wsl-spark-standalone-pi-app-details](../../images/wsl-spark-standalone-pi-app-details.png)
-![wsl-spark-standalone-pi-app-stdout](../../images/wsl-spark-standalone-pi-app-stdout.png)
+![spark-master](../../images/spark-master.png)
+![spark-worker](../../images/spark-worker.png)
+![spark-app](../../images/spark-app.png)
 
 ### Clean up
 ```bash
