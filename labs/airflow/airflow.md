@@ -1,4 +1,6 @@
 # Apache Airflow
+Apache Airflow is an open-source workflow management platform for data engineering pipelines. It started as a solution to manage the company's increasingly complex workflows. It is used for a wide range of purposes, from simple job scheduling to big data pipelines and machine learning lifecycle management (MLOps).
+
 ## Install Airflow
 You might have installed Airflow when you tried to install the Jupyter using `requirements.txt`, but if not, follow the *(Optional) Set Airlfow home directory* and *Install Airflow using the constraints file, which is determined based on the URL we pass* steps to install Airflow from PyPI(Python Package Index).
 
