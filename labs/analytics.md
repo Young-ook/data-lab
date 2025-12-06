@@ -5,8 +5,8 @@
 - [Apache Spark](#apache-spark)
 
 ## Apache Airflow
-Apache Airflow is an open-source platform for developing, scheduling, and monitoring batch-oriented workflows. For the details of airflow, open the [airflow.md](airflow/airflow.md) file and follow the instructions.
+Apache Airflow is an open-source workflow management platform for data engineering and MLOps pipelines. To learn how to use Airflow, follow the [airflow.md](airflow/airflow.md).
 
 ## Apache Spark
-Apache Spark is a multi-language engine for executing data engineering, data science, and machine learning on single-node machines or clusters. For more details, open the [spark.md](spark/spark.md) file and follow the instructions.
+Apache Spark is an open-source unified analytics engine for large-scale data processing. For more details and labs, open the [spark.md](spark/spark.md) and follow the instructions.
 

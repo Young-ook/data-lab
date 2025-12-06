@@ -8,38 +8,25 @@
 - [Other Examples](#other-examples)
 
 ## Apache Airflow
-Apache Airflow is an open-source platform for developing, scheduling, and monitoring batch-oriented workflows. For the details of machine learning lifecycle management with airflow, open the [airflow.md](airflow/airflow.md) file and follow the instructions.
+Apache Airflow is an open-source workflow management platform for data engineering and MLOps pipelines. To learn more details of machine learning lifecycle management with Airflow, follow the [airflow.md](airflow/airflow.md).
 
 ## Jupyter
 Jupyter is the web-based notebook application for interactive computing, computational documents sharing. It offers a simple, streamlined, document-centric experience. Open the [jupyter.md](jupyter/jupyter.md) and follow the instructions.
 
 ## MLflow
-Open the [mlflow.ipynb](mlflow/mlflow.ipynb) jupyter notebook and follow the instructions. If you are looking for the latest examples and advanced guide for MLflow, you can follow the instructions from [the official MLflow repository](https://github.com/mlflow/mlflow). Clone the mlflow into the *data-lab/labs/extra* directory and run examples by following the intructions of each jupyter notebooks under the example directory. You should make a *extra* directory where to clone the mlflow examples if you don't have it on your workspace.
+MLflow is an open-source developer platform to build AI/ML applications with end-to-end experiment tracking, observability, and evaluations, all in one integrated platform. To learn about MLflow, open the [mlflow.md](mlflow/mlflow.md) and follow the instructions.
+
+For more MLflow examples and advanced guide, please checkou out [the official MLflow repository](https://github.com/mlflow/mlflow). Clone the mlflow into the *data-lab/labs/extra* directory and run examples by following the intructions of each jupyter notebooks under the example directory. You should make a *extra* directory where to clone the mlflow examples if you don't have it on your workspace.
+
 ```bash
 git clone https://github.com/mlflow/mlflow.git
 ```
 
-![mlflow-web](../images/mlflow-web.png)
-
-
 ## LLM
-
 ### Simple LLM
 Open the `simple-llm-student-guide.ipynb` notebook in *llm* directory and follow the instructions.
 
-
 ## Other Examples
-
-### Kedro
-Kedro is an open-source Python framework to create reproducible, maintainable, and modular data science code. It uses software engineering best practices to help you build production-ready data science pipelines. You can build your MLOps pipeline by following the official [Kedro Tutorial](https://docs.kedro.org/en/stable/tutorial/spaceflights_tutorial.html).
-
-![kedro-viz](../images/kedro-viz.png)
-
-### ZenML
-ZenML is an open-source MLOps framework that seamlessly integrates existing infrastructure and tools. You can launch and test a ZenML yourself and take a tour with the guided [Quick Start](https://github.com/zenml-io/zenml/tree/main/examples/quickstart). And if you want to learn more details of ZenML for ML lifecycle management, you can look into the [ZenML](https://github.com/zenml-io/zenml) guide.
-
-![zenml-pipelines](../images/zenml-pipelines.png)
-
 ### PyTorch for Deep Learning Bootcamp
 Clone the repository into the *data-lab/labs/extra* directory. If you have the *extra* directory you can create before you clone the repository using `mkdir -p extra`. To run hands-on labs, open each notebooks and follow the tutorials for pytorch deep learning course. For more details, please check out the [PyTorch for Deep Learning Bootcamp](https://github.com/mrdbourke/pytorch-deep-learning).
 
@@ -76,7 +63,4 @@ git clone https://github.com/rhiever/Data-Analysis-and-Machine-Learning-Projects
 - [Linux Foundation AI/Data Projects](https://lfaidata.foundation/projects/)
 - [PyTorch Tutorials](https://pytorch.org/tutorials/)
 - [Tensorflow Tutorials](https://www.tensorflow.org/tutorials)
-- [Kubeflow](https://www.kubeflow.org/)
-- [MLflow](https://mlflow.org/)
-- [Polyaxon](https://polyaxon.com/)
-- [ZenML](https://www.zenml.io/)
+
