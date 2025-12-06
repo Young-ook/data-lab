@@ -39,6 +39,9 @@ In summary, *Kubeflow* is more focused on orchestration and deployment of ML wor
 
 ## Alternatives
 
+### Apache Airflow
+Apache Airflow is an open-source workflow management platform for data engineering and MLOps pipelines. To learn more details of machine learning lifecycle management with Airflow, follow the instructions in the [airflow.md](../airflow/airflow.md).
+
 ### Kedro
 Kedro is an open-source Python framework to create reproducible, maintainable, and modular data science code. It uses software engineering best practices to help you build production-ready data science pipelines. You can build your MLOps pipeline by following the official [Kedro Tutorial](https://docs.kedro.org/en/stable/tutorial/spaceflights_tutorial.html).
 
@@ -50,6 +53,7 @@ ZenML is an open-source MLOps framework that seamlessly integrates existing infr
 ![zenml-pipelines](../../images/zenml-pipelines.png)
 
 # Additional Resources
+- [Airflow](https://airflow.apache.org/)
 - [Kubeflow](https://www.kubeflow.org/)
 - [MLflow](https://mlflow.org/)
 - [Polyaxon](https://polyaxon.com/)

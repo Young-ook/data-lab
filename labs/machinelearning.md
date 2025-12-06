@@ -1,14 +1,10 @@
 # ML (Machine Learning) Lab
 
 ## Table of Contents
-- [Apache Airflow](#apache-airflow)
 - [Jupyter](#jupyter)
 - [MLflow](#mlflow)
 - [LLM (Large Language Model)](#llm)
 - [Other Examples](#other-examples)
-
-## Apache Airflow
-Apache Airflow is an open-source workflow management platform for data engineering and MLOps pipelines. To learn more details of machine learning lifecycle management with Airflow, follow the [airflow.md](airflow/airflow.md).
 
 ## Jupyter
 Jupyter is the web-based notebook application for interactive computing, computational documents sharing. It offers a simple, streamlined, document-centric experience. Open the [jupyter.md](jupyter/jupyter.md) and follow the instructions.

@@ -85,6 +85,7 @@ If the ML pipeline was successfully finished, you can see the a new experiment h
 ![mlflow-exp](../../images/mlflow-exp.png)
 
 # Additional Resources
+- [Airflow](https://airflow.apache.org/)
 
 # References
 - [Installation of Airflow](https://airflow.apache.org/docs/apache-airflow/stable/installation/index.html)
