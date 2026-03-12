@@ -3,7 +3,7 @@
 ## Table of Contents
 - [Jupyter](#jupyter)
 - [MLflow](#mlflow)
-- [LLM (Large Language Model)](#llm)
+- [Ollama](#ollama)
 - [Other Examples](#other-examples)
 
 ## Jupyter
@@ -18,9 +18,8 @@ For more MLflow examples and advanced guide, please checkou out [the official ML
 git clone https://github.com/mlflow/mlflow.git
 ```
 
-## LLM
-### Simple LLM
-Open the `simple-llm-student-guide.ipynb` notebook in *llm* directory and follow the instructions.
+## Ollama
+Ollama is an open-source tool that allows users to run large language models (LLMs) on local computer. Open the [ollama.md](ollama/ollama.md) file and follow the instructions.
 
 ## Other Examples
 ### PyTorch for Deep Learning Bootcamp
