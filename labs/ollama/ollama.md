@@ -10,11 +10,11 @@
 ## Specific Model Requirements (RAM/VRAM)
 The most crucial factor is the memory (RAM or VRAM) required by the specific model you intend to use. Generally, the memory requirement is slightly higher than the model's size.
 
-| Model Size (Parameters)               | Recommended RAM/VRAM            |
-|:--------------------------------------|:--------------------------------|
-| 7B models (e.g., Mistral, Llama 2 7B) | At least 8GB of RAM or 8GB VRAM |
-| 13B models                            | At least 16GB of RAM or VRAM    |
-| 70B models (e.g., Llama 3 70B)        | At least 64GB of RAM or VRAM    |
+| Model Size (Parameters)               | Recommended RAM/VRAM      |
+|:--------------------------------------|:--------------------------|
+| 7B models (e.g., Mistral, Llama 2 7B) | At least 8GB of RAM/VRAM  |
+| 13B models                            | At least 16GB of RAM/VRAM |
+| 70B models (e.g., Llama 3 70B)        | At least 64GB of RAM/VRAM |
 
 ## GPU Acceleration
 A GPU is not strictly mandatory, but it is highly recommended for an efficient experience. Ollama automatically uses an available GPU if detected.
@@ -40,7 +40,7 @@ This is an additional considerations for Ollama container environment customizat
 - Environment Variables: You can pass variables like `OLLAMA_KEEP_ALIVE=-1` using the `-e` flag if you want to prevent the model from unloading from memory after inactivity.
 - Integration: If you are running a frontend like Open WebUI, it can communicate with this container via `http://localhost:11434`
 
-If Ollama container runs successfully, then, you can download a language model. In this example, we're going to use Qwen 2.5, a lightweight module for testing.
+If Ollama container runs successfully, then, you can download a language model. In this example, we're going to use Qwen 2.5, a lightweight model for testing.
 ```sh
 podman exec -it ollama ollama pull qwen2.5:0.5b
 ```
