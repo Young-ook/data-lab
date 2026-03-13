@@ -6,6 +6,7 @@ Jupyter is the web-based interactive development environment for notebooks, code
 ## Notebooks
 - `dataset.ipynb`
 - `feature-engineering.ipynb`
+- `simple-llm-student-guide.ipynb`
 
 # References
 - [Jupyter](https://jupyter.org/)
