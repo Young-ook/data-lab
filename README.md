@@ -3,7 +3,7 @@
 > This is a project shows how to build an AI/ML system in a WSL environment. Of course, the same can be applied in a general Linux environment.
 
 # Workspace
-## Install Debian on WSL
+## Debian on WSL
 Open Settings > Apps > Programs and Features > Turn Windows features on or off dialog and select the *Windows Subsystem for Linux* to enable WSL on your system. You may reboot your system.
 
 ![enable-wsl](images/enable-wsl.png)
@@ -13,7 +13,7 @@ After you have enabled WSL, you can install linux distribution via Microsoft Sto
 To verify your install, open windows terminal or command terminal and run `wsl -l -v` command to list WSL distributions. For more details about WSL command, please refer to [Basic commands for WSL](https://learn.microsoft.com/en-us/windows/wsl/basic-commands).
 
 ## JupyterLab
-In this example, we will use [Jupyter notebook](./labs/jupyter/jupyter.md) as primary interactive interface for AI, ML, Analytics examples. Before starting the hands-on lab, run JupyterLab by selecting your preferred installation option (Docker, Python Virtual Environment).
+In this example, we will use [Jupyter notebook](./labs/jupyter/jupyter.md) as primary interactive interface for AI, ML, Analytics examples. Before starting the hands-on lab, run JupyterLab by selecting your preferred installation option (Container or Python Virtual Environment).
 
 ### Install using Package Manager
 One of the installation options is to use packages managers. We're going to install Python, and utilities via Debian Apt (Advanced Package Tool), and install JupyterLab using python package installer.
@@ -46,8 +46,8 @@ Launch a JupyterLab and open a web browser to access (if you want to change the 
 jupyter-lab --no-browser
 ```
 
-## Run in Container
-You can simplify JupyterLab environment setup using container runtime such as Docker, Podman, or Kubernetes. Install [Docker](https://docs.docker.com/engine/install/) or [Podman](https://podman.io/docs/installation) to your system and run the command.
+### Run in Container
+You can simplify JupyterLab environment setup using container runtime such as Docker, Podman, or Kubernetes. To launch a JupyterLab container, install [Docker](https://docs.docker.com/engine/install/) or [Podman](https://podman.io/docs/installation) and run the following command.
 
 ```
 podman run --rm -p 8888:8888 -v "${PWD}":/home/jovyan/work \
