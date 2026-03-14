@@ -82,7 +82,6 @@ You will see the `greetings` and `ml_train` in the *DAGs* when you back to the A
 > Please make sure that your MLflow Tracking Server is running before you run the MLOps with Airflow and MLflow DAG. For more information how to run a MLflow Tracking Server, follow the [Install MLflow](https://mlflow.org/docs/latest/ml/tracking/quickstart/) instructions.
 
 If the ML pipeline was successfully finished, you can see the a new experiment has been recorded in MLflow Tracking Server. Access `localhost:5000` to see the latest experiment *airflow* registred as the source.
-![mlflow-exp](../../images/mlflow-exp.png)
 
 # Additional Resources
 - [Airflow](https://airflow.apache.org/)
