@@ -76,3 +76,4 @@ Stop and terminate the running Juypter and other processes wth `ctrl+c` keys and
 
 # Additional Resources
 - [Terraform: Data on Amazon EKS](https://github.com/Young-ook/terraform-aws-eks/tree/main/examples/data-ai)
+- [Linux Foundation AI/Data Projects](https://lfaidata.foundation/projects/)
