@@ -1,8 +1,8 @@
 import datetime as dt
 
 from airflow import DAG
-from airflow.operators.bash_operator import BashOperator
-from airflow.operators.python_operator import PythonOperator
+from airflow.operators.bash import BashOperator
+from airflow.operators.python import PythonOperator
 
 # Say this is Task1
 def greet():
@@ -31,7 +31,7 @@ default_args = {
 with DAG('greetings',
          catchup=False,
          default_args=default_args,
-         schedule_interval='*/10 * * * *',
+         schedule='*/10 * * * *',
          # schedule_interval=None,
          ) as dag:
     opr_hello = BashOperator(task_id='say_hi', bash_command='echo "Hi!!"')
