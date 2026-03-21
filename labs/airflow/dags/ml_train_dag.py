@@ -79,7 +79,7 @@ default_args = {
 with DAG('ml_train',
          catchup=False,
          default_args=default_args,
-         schedule_interval=None,
+         schedule=None,
          tags=['iris', 'classification'],
          ) as dag:
     #preprep_data = BashOperator(task_id='preprep_data', bash_command="python3 ./preprep_data.py")
@@ -88,14 +88,12 @@ with DAG('ml_train',
     # define task_instance
     get_data = PythonOperator(
         task_id = 'get_data',
-        python_callable = get_data,
-        provide_context = True
+        python_callable = get_data
     )
 
     train_model = PythonOperator(
         task_id = 'train_model',
-        python_callable = train_model,
-        provide_context = True
+        python_callable = train_model
     )
 
     get_data >> train_model
