@@ -36,17 +36,20 @@ Airflow provides a standalone mode for local testing or development that initial
 airflow standalone
 ```
 
-> [!NOTE]
+> [!IMPORTANT]
 > This local system is simple and easy to use for testing or practice, but we recommend enable security, governance, monitoring, reverse proxing, persistent backend and more for use in production.
 
-If you want to run the individual parts of Airflow manually rather than using the all-in-one standalone command, you can instead run:
+You can run the individual parts of Airflow manually.
 ```
 airflow db migrate
-
 airflow users create --username admin --firstname FIRST_NAME --lastname LAST_NAME --role Admin --email admin@example.org
 Password:
-
+```
+```
 airflow webserver --port 8080
+```
+Open a new terminal and run the scheduler. If the web server is already running in the background, you can run the scheduler in the same terminal.
+```
 airflow scheduler
 ```
 
