@@ -62,8 +62,15 @@ podman stop ollama
 podman rm ollama
 ```
 
+# Alternatives
+
+## vLLM
+[vLLM](https://vllm.ai/) vLLM is a fast and easy-to-use library for LLM inference and serving. Originally developed in the Sky Computing Lab at UC Berkeley, vLLM has evolved into a community-driven project with contributions from both academia and industry.
+
 # Additional Resources
+- [vLLM](https://docs.vllm.ai/en/stable/)
 
 # References
 - [Install Ollama on Linux](https://docs.ollama.com/linux)
+- [Deploying vLLM on Kubernetes](https://docs.vllm.ai/en/v0.8.4/deployment/k8s.html)
 
